@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    background-color: #24353F;
+    font-weight: 400;
+    font-size: 16px;
+}
+h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.container .content,nav{
+    box-shadow: 5px 5px 12px 10px #19252C;
+}
+.signIn input,.signUp input{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.signIn button:hover,.signUp button:hover{
+    color: white;
+}
+nav .logoutBtn{
+   border: 1px solid #FFC107; 
+   color: #ffffffbf;
+}
+nav .logoutBtn:hover{
+    background-color: #FFC107;
+    color: white;
+}

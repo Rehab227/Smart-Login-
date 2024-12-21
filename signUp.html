@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="signUp">
+        <div class="container my-5 text-center">
+            <div class="content w-75 m-auto p-5">
+                <h1 class="text-info">Smart Login System</h1>
+                <input id="userName" class="form-control my-3" type="text" name="userName"
+                    placeholder="Enter your name">
+                <input id="userEmail" class="form-control my-3" type="email" name="userEmail"
+                    placeholder="Enter your email">
+                <input id="userPass" class="form-control my-3" type="password" name="userPass"
+                    placeholder="Enter your password">
+                <p class="text-success d-none" id="successSMS">Success</p>
+                <p id="repeadEmail" class="text-danger d-none">email already exists</p>
+                <p id="inValidEmail" class="text-danger d-none">invalid email</p>
+                <p id="inValidName" class="text-danger d-none">invalid name</p>
+                <p id="inValidPass" class="text-danger d-none">invalid password</p>
+                <p id="requirInputes" class="text-danger d-none">All inputs is required</p>
+                <button onclick="adduser()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account? <a href="./index.html"
+                        class="text-white text-decoration-none">Signin</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src=""></script>
+</body>
+
+</html>
